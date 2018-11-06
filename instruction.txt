@@ -1,0 +1,14 @@
+1. player
+  lives:
+  name:
+  subtractLife()
+  reset()
+
+2. Game
+  question:
+  turn:
+  questionGenerator():
+  isRight?(answer):
+  correctMessage():
+  wrongMessage():
+  gameOver(player,score)
